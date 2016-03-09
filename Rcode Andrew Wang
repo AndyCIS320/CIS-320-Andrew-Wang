@@ -1,0 +1,10 @@
+foodData <- read.csv(file.choose(), header = TRUE, sep=",")
+
+summary(foodData)
+
+counts <- table(foodData$County)
+barplot(counts, main="Number of Participating Counties", 
+    xlab="County")
+
+counts <- table(foodData$Rural)
+barplot(counts, main="Number of Rural Census Tracts", horiz=TRUE, names.arg=c(), cex.names=0.8)
