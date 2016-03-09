@@ -1,0 +1,4 @@
+Project and analysis was descripted and thorough. 
+Was unable to run the code due to the fact that 
+it was loaded in from local. But the code was 
+there and from the commands the graphs were descripted as well. 
